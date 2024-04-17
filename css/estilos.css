@@ -1,0 +1,184 @@
+:root {
+    --background-image-url: url("../recursos/Background.jpeg");
+    --menu-background-color: rgb(247, 247, 247);
+    --link-color: rgb(179, 179, 179);
+    --hover-color: #9ed033;
+    --price-background-color: rgb(255, 255, 255);
+    --price-value-background-color: rgb(229, 71, 70);
+    --price-value-color: rgb(255, 255, 255);
+    --venice-text-color: rgb(158, 208, 51);
+    --link-hover-color: rgb(229, 71, 70);
+    --button-background-color: rgb(158, 208, 51);
+    --button-color: white;
+    --border-color: rgb(222, 222, 222);
+    --father-background-color: white;
+    --last-logo-margin-top: 40px;
+    --last-logo-margin-left: 15px;
+    --margin-top: 5%;
+    --button-width-1: 190px;
+    --button-width-2: 212px;
+    --button-width-3: 230px;
+    --button-width-4: 200px;
+    --button-height: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    background-image: var(--background-image-url);
+    padding: 5em;
+    background-size: cover;
+    position: relative;
+}
+
+.menu {
+    background-color: var(--menu-background-color);
+    display: flex;
+    align-items: center;
+    width: 62em;
+    margin-left: 15em;
+    height: 5em;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 4em;
+    height: 55px;
+    padding-top: 27.5px;
+    text-align: center;
+    
+    width: 300px;
+}
+
+.contenedor-de-logos {
+    margin-right: 10em;
+}
+
+
+.contenedor_de_precios {
+    margin-top: 9em;
+    background-color: var(--price-background-color);
+    height: 14em;
+    width: 18em;
+    padding-top: 2em;
+    margin-left: 15em;
+}
+
+.contenedor_del_valor {
+    background-color: var(--price-value-background-color);
+    color: var(--price-value-color);
+    font-size: 2em;
+    margin: 1em;
+    text-align: center;
+}
+
+.ciudad {
+    margin-left: 6em;
+}
+
+.venice-text-container {
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.contenedor-paises {
+    display: flex;
+    margin-top: 4.81em;
+    width: 62em;
+}
+
+.paises {
+    background-color: var(--hover-color);
+    margin-right: 3em;
+    color: #f1ffca;
+    padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 4.5em;
+}
+
+.informacion_paises {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 5em;
+    margin-left: 15em;
+}
+
+.info-paises {
+    margin-right: 3em;
+}
+
+.info-paises p {
+    color: var(--venice-text-color);
+}
+
+.info-paises h3 {
+    text-decoration: none;
+    color: var(--link-hover-color);
+    font-size: 10px;
+}
+
+.boton-1,
+.boton-2,
+.boton-3,
+.boton-4 {
+    background-color: var(--button-background-color);
+    border: 0px;
+    width: var(--button-width-1);
+    height: var(--button-height);
+    color: var(--button-color);
+    margin-top: var(--margin-top);
+}
+
+.boton-2 {
+    width: var(--button-width-2);
+}
+
+.boton-3 {
+    width: var(--button-width-3);
+}
+
+.boton-4 {
+    width: var(--button-width-4);
+}
+
+.logos-contenedor {
+    background-color:rgb(238,238,238,255);
+    display: flex;
+    position: absolute;
+    margin-top: 25em;
+    z-index: 3;
+   
+}
+
+.logo-contenedor {
+    border: .5px solid var(--border-color);
+    padding: 3em;
+    flex-grow: 2;
+    flex-basis: 1;
+    min-width: 50px;
+}
+
+
+.final {
+    margin-left: 300px;
+    display: flex;
+    position: absolute;
+    margin-top: 25em;
+    z-index: 3;
+    margin-top: 600px;
+
+}
+
